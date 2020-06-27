@@ -17,8 +17,10 @@ for(button of buttons){
         }
         else{
             beep.play();
-            screenValue = e.target.innerText;
-            screen.value += screenValue;
+            setTimeout(() => {
+                screenValue = e.target.innerText;
+                screen.value += screenValue;
+            }, 0);
         }
     })
 }
