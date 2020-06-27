@@ -1,7 +1,7 @@
 const screen = document.getElementById('screen');
 const buttons = document.querySelectorAll('button');
 let screenValue = '';
-var beep = new Audio('beep.wav');
+//var beep = new Audio('beep.wav');
 
 for(button of buttons){
     button.addEventListener('click', (e)=>{
@@ -16,11 +16,11 @@ for(button of buttons){
             screen.value = eval(screen.value);
         }
         else{
-            beep.play();
-            setTimeout(() => {
+            //beep.play();
+            //setTimeout(() => {
                 screenValue = e.target.innerText;
                 screen.value += screenValue;
-            }, 0);
+            //}, 0);
         }
     })
 }
