@@ -1,18 +1,20 @@
 body{
-    background-color: #00203FFF;
+    background-color: rgb(5, 5, 5);
 }
 
 h1{
-    color: wheat;
+    color: rgb(207, 75, 26);
 }
 
 .container{
     text-align: center;
+
 }
+
 
 .calculator{
     display: inline-block;
-    background-color: #ADEFD1FF;
+    background-color: black;
     border-radius: 15px;
 }
 
@@ -24,18 +26,28 @@ input{
     margin-top: 5px;
     font-size: 26px;
     height: 37px;
+    border-color: white;
     border-radius: 20px;
-    background-color: #00203FFF;
-    color: #ADEFD1FF;
+    background-color: black;
+    color: white;
+    text-align: right;
 }
 
 button{
-    background-color: #00203FFF;
-    color: #ADEFD1FF;
+    background-color: rgb(25, 25, 26);
+    color: orangered;
     margin: 3px;
     height: 51px;
     width: 70px;
     border-radius: 20px;
     border: none;
     outline:none;
+}
+
+.num{
+    color: white;
+}
+
+.equal{
+    background-color: orangered;
 }
