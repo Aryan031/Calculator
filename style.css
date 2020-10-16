@@ -27,10 +27,11 @@ input{
     font-size: 26px;
     height: 37px;
     border-color: white;
-    border-radius: 20px;
+    border-radius: 100px;
     background-color: black;
     color: white;
     text-align: right;
+    border-width: 0.001em;
 }
 
 button{
